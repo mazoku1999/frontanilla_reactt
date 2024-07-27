@@ -1,12 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import './Saludo'
+
+import Tabla from './Tabla';
+import Bienvenido from './Bienvenido';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
@@ -16,10 +20,18 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        <Bienvenido />
+        <Tabla />
+        {/* <Saludo />
+        <Andrea /> */}
+
       </header>
     </div>
   );
 }
 
 export default App;
+// una tabla 2x2 con borde
+// Crear un componente que escriba el mensaje bienvenido al incos
+
