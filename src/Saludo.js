@@ -1,8 +1,8 @@
 
 
-function Saludo() {
+function Saludo({ nombre }) {
     return (
-        <h1>Hola mundo</h1>
+        <h1>Hola {nombre}</h1>
     )
 }
 
